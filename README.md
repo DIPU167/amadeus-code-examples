@@ -1,29 +1,24 @@
-[![Discord](https://img.shields.io/discord/696822960023011329?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/cVrFBqx)
 
-# Amadeus Code Examples
+The content of the `response.json` file located at `airline_code_lookup/v1/get/response.json` in the repository `amadeus4dev/amadeus-code-examples` is as follows:
 
-## Introduction 
-This repository contains code examples to show you how to call the [Amadeus for Developers](https://developers.amadeus.com) Self-Service APIs.
+```json
+{
+    "meta": {
+        "count": 1,
+        "links": {
+            "self": "https://test.api.amadeus.com/v1/reference-data/airlines?airlineCodes=BA"
+        }
+    },
+    "data": [
+        {
+            "type": "airline",
+            "iataCode": "BA",
+            "icaoCode": "BAW",
+            "businessName": "BRITISH AIRWAYS",
+            "commonName": "BRITISH A/W"
+        }
+    ]
+}
+```
 
-The examples are written in the following languages: 
-- [Node](https://github.com/amadeus4dev/amadeus-node)
-- [Java](https://github.com/amadeus4dev/amadeus-java)
-- [Python](https://github.com/amadeus4dev/amadeus-python)
-- [Swift](https://github.com/amadeus4dev/amadeus-ios)
-- [cURL](https://curl.se/)
-
-All the languages - apart from cURL - utilise our open-source Amadeus SDKs.
-
-## Authorization 
-In order to execute the examples you have to use your own Amadeus API key and secret. Your credentials can be found on the [Amadeus dashboard](https://developers.amadeus.com/my-apps).
-
-## Dependencies
-Depending on the language of your choice you have to install it's SDK. The installation steps are described in the documentation of each supported language mentioned above. 
-
-## License
-This code is released under the [MIT License](LICENSE).
-
-## Help
-You can find us on
-[StackOverflow](https://stackoverflow.com/questions/tagged/amadeus) or join our developer community on
-[Discord](https://discord.gg/cVrFBqx).
+You can view the file directly on GitHub [here](https://github.com/amadeus4dev/amadeus-code-examples/blob/2455be2a28814920f5b05cbc2cae869bd3c950de/airline_code_lookup/v1/get/response.json). Let me know if you need further assistance!
