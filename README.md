@@ -9,7 +9,7 @@ The content of the `response.json` file located at `airline_code_lookup/v1/get/r
             "self": "https://test.api.amadeus.com/v1/reference-data/airlines?airlineCodes=BA"
         }
     },
-    "data": [
+    "data": 
         {
             "type": "airline",
             "iataCode": "BA",
